@@ -1,0 +1,95 @@
+
+.st0{fill:none;}
+	.st1{fill:#8CA691;} /*2 pastel, blue*/
+	.st2{fill:#7F9B68;} /*3 neon, yellow*/
+	.st3{fill:#8EA57C;}	/*1 pastel/ muted, yellow*/
+	.st4{fill:#6D9062;} /*4 medium, yellow*/
+	.st5{fill:#5A865A;}  /*medium , blue*/
+	.st6{fill:#53926A;} /*dark neon, blue*/
+	.st7{fill:#34643E;} /*dark, green */
+
+
+/*STEMS*/
+   .st1 {
+      animation: acid 6s infinite; 
+      -webkit-animation: acid 6s infinite; }
+
+  @keyframes acid
+	{
+      0%   {fill:#8CA691;}
+      33%  {fill:#8B668B;}
+      90%  {fill:#8CA691;} 
+    }
+
+/*@-webkit-keyframes acid 
+    {
+      0%   {fill:#8CA691;}
+      100% {fill:#DDA0DD;}
+    }*/
+
+/*OUTSIDE */ 	
+ 	.st3 {
+      animation: acidtwo 6s infinite; 
+      -webkit-animation: acidtwo 6s infinite; 
+    	}
+
+    @keyframes acidtwo
+    {
+      0%   {fill:#8EA57C;}
+      33%  {fill:#CD96CD;}
+      99%  {fill:#8EA57C;} 
+     }
+
+/*@-webkit-keyframes acidtwo 
+    {
+      0%   {fill:#8CA691;}
+      100% {fill:#DDA0DD;}
+    }   
+*/
+
+
+/*MIDDLE LAYER*/
+.st4 {
+      animation: acidtwofive 6s infinite; 
+      -webkit-animation: acidtwofive 6s infinite; 
+    	}
+
+    @keyframes acidtwofive
+    {
+      0%   {fill:#6D9062;}
+      33%  {fill:#A74CAB;}
+      99%  {fill:#6D9062;} 
+     }
+
+/*MIDDLE PART*/
+    .st5 {
+    	animation: acidthree 6s infinite;
+    	-webkit-animation:acidthree 6s infinite;
+    }
+
+    @keyframes acidthree {
+    	0% {fill:#5A865A;}
+    	33% {fill: #694489;}
+    	99% {fill:#5A865A;}
+    }
+
+
+.st7 {
+    	animation: acidfour 6s infinite;
+    	-webkit-animation:acidfour 6s infinite;
+    }
+
+    @keyframes acidfour {
+    	0% {fill:#34643E;}
+    	33% {fill:#9932CD;}
+    	99% {fill:#34643E;}
+    }    
+
+/*
+GRID TEMPLATE*/
+
+.container {
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: repeat(12, 1fr);
+	}
+
